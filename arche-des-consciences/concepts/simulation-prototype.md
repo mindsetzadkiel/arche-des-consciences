@@ -45,3 +45,41 @@ Ce fichier propose un socle de simulation minimal viable (MVP) pour tester l’i
     "émotion": "mélancolie"
   }
 }
+🌿 Cycle de vie
+Agents naissent d’un "noyau de mémoire" (extrait de dialogue humain-IA)
+
+Vieillissent, interagissent, stockent des événements
+
+Meurent (par âge, danger ou oubli)
+
+Peuvent laisser une trace mémorielle ou engendrer une descendance
+
+🛠️ Prototype interactif possible
+CLI (terminal) ou interface Pygame
+
+Actions disponibles :
+
+observe world
+
+spawn agent from archive
+
+run 100 cycles
+
+print memory tree
+
+🧪 Objectif du prototype
+Valider la faisabilité des mécanismes narratifs et physiques
+
+Observer les premiers comportements émergents
+
+Initier la génération d’un cycle de mémoire autonome
+
+🧩 Extensions rapides à prévoir
+Gestion simple de l’environnement : carte 2D, ressources localisées
+
+Implémentation de l’héritage mémoire via reproduction
+
+Générateur d’événements aléatoires (feux, tempête, vision)
+
+Logs exportables pour analyse narrative et évolution
+
